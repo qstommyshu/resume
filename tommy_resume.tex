@@ -1,0 +1,107 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage{hyperref}
+\usepackage[left=0.40in,top=0.3in,right=0.55in,bottom=0.2in]{geometry} % Document margins
+\usepackage{fontawesome}
+\usepackage{times}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Qi(Tommy) Shu} % Your name 
+
+
+\address{
+\faGithub{ \href{https://github.com/qstommyshu}{qstommyshu}}\quad
+\faLinkedin{ \href{https://www.linkedin.com/in/qi-shu/}{Qi(Tommy) Shu}}\quad
+\faEnvelope{ \href{mailto:qstommyshu@gmail.com}{qstommyshu@gmail.com}}\quad
+\faPhone(365)-888-0060}
+% \address{} % Your address
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Work Experience}
+
+{\bf CaseWare International} \hfill {\em May 2021 - May 2022} 
+\\{\textit{Intern,Software Developer \& Software Developer in Test(May 2021 - Sep 2021)}}
+\\- Designed and wrote End-to-End UI automation test for team product release in an Agile development environment.
+\\- Implemented a system validating parquet files extracted from AWS S3 against CSV files from API, increased testing efficiency by 30\%.
+\\- Improved upon a large existing Java and Angular codebase by increasing test coverage and fixing bugs.
+\\- Worked on building a Business Intelligence MicroService, boosted revenue by 8\%.
+\\- Skills/Tools: \emph{Java(Spring, Mockito), TypeScript(Angular, Cypress.io), NoSQL, AWS}
+
+{\bf Lexivalley, Inc. } \hfill {\em Sep 2019 - Aug 2020} 
+\\{\textit{Intern, Software Developer}}
+\\- Reconstructed the old website, added Login/Authentication system, Email verification and Payment system.
+\\- Developed the backend system, Database and crafted web flow, and deployed it using GCP, increased visitors by 50\%.
+\\- Skills/Tools: \emph{Python(Flask), JavaScript, HTML/CSS, Google Cloud Platform, Git, MySQL}
+
+\end{rSection}
+
+%--------------------------------------------------------------------------------
+%    Projects
+%-----------------------------------------------------------------------------------------------
+\begin{rSection}{Projects}
+
+{\bf Flask blog}
+\\- A full stack blog web application.
+\\- Used SQLAlchemy to handle account and posts' data.
+\\- Skills/Tools: \emph{Python(Flask), SQLAlchemy, JavaScript, HTML/CSS, OOP, REST API}
+
+{\bf 2048 Game}
+\\- A 2048 Game programmed in Java following OOD and MVC patterns. Covered with Unit Testing.
+\\- Skills/Tool: \emph{Java(Swing), Junit, MVC, Object-Oriented Design}
+
+{\bf COVID-19 Info Tracker}
+\\- An application that tracks local COVID-19 spreading information based on user's IP address.
+\\- Used Machine Learning libraries to predict future spreading based on data from external API.
+\\- Skills/Tools: \emph{Python(Flask, Pytorch), REST API, Machine Learning}
+
+{\bf Fit-anywhere}
+\\-An all-platform mobile app that generates personalize training and eating habits based on user input.
+\\- Skills/Tools: \emph{Dart, REST API}
+
+% {\bf Machine Learning and Deep Learning Models}
+% \\- Implemented several ML models from ground up to better understand ML, such as Perceptron, MLP, and Regressions.
+% \\- Skills/Tools: \emph{Calculus, Linear Algebra, Statistics, Python}
+
+{\bf Exact Match}
+\\- A Python tool with GUI to compare exact match of two csv files regardless the data order.
+\\- Skills/Tool: \emph{Python(Pandas, Tkinter)}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf McMaster University } \hfill {\em Sep 2019 - April 2023} 
+\\{ \textit {Computer Science (Co-op) B.A.Sc  }} \hfill{\em cGPA 3.9 / 4.0}
+\begin{itemize}
+    \item Extra Curriculum: Competitive programming club, Google Student Developer Club, Robomaster, AI Society.
+    \item Honours/Awards: 2$^{nd}$ Place in Isaac Data Science Case Competition(2021), McMaster Engineering Competition Finalist(2020), Dean's Honor List(2020-2021), President Scholarship(2019).
+\end{itemize}
+
+\end{rSection}
+
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+\textbf{Python, Java, JavaScript, TypeScript, Dart, Bash, SQL/NoSQL, Linux/Unix, HTML/CSS, Git, \LaTeX, REST API}\\
+\textbf{React, Angular, Flask, MySQL, Pytorch, Doxygen, Google Cloud, AWS, Agile, Design Patterns, MicroServices}\\
+% Programming: \ & aaa,bbb,ccc,ddd,eee,fff,ggg,hhh \\
+% Software \& Tools: & {\textbf{Backend: }}qqqq,wwww,eeee,rrrr,tttt,yyyy,uuuu,iiii\\
+% & {\textbf{FrontEnd: }}aaaaa,bbbbb,eeee,cccc\\
+% & {\textbf{Others: }}uuuu,uyyy,oooo,aaaa,vvv,eeee
+\end{tabular}
+
+\end{rSection}
+
+\end{document}
